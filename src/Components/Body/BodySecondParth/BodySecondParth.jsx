@@ -3,6 +3,7 @@ import BodySecond1 from './BodySecond1'
 import BodySecond2 from './BodySecond2'
 import BodySecond3 from './BodySecond3'
 import BodySecond4 from './BodySecond4'
+import BodySecond5 from './BodySecond5'
 
 function BodySecondParth() {
     return (
@@ -17,6 +18,7 @@ function BodySecondParth() {
                 <strong><p className='ml-[20px] text-[20px] my-[30px]'>Սովորական առաջարկներ</p></strong>
             </div>
             <BodySecond4 />
+            <BodySecond5 />
         </div>
     )
 }

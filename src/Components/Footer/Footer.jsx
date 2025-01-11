@@ -1,8 +1,13 @@
 import React from 'react'
+import FooterTop from './FooterTop'
+import FooterBottom from './FooterBottom'
 
 function Footer() {
   return (
-    <div></div>
+    <div>
+        <FooterTop />
+        <FooterBottom />
+    </div>
   )
 }
 
