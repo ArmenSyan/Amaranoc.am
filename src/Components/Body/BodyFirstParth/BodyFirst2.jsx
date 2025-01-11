@@ -1,20 +1,11 @@
-import React from 'react'
-let arr = [
-    {
-        active: false,
-        text: "֏"
-    }, {
-        active: false,
-        text: "$"
-    }, {
-        active: false,
-        text: "€"
-
-    }, {
-        active: false,
-        text: "₽"
-    }]
+import React, { useState } from 'react'
+let arr = ["֏", "$", "€", "₽"]
 function BodyFirst2() {
+    const [activeElement, setActiveElement] = useState(0)
+    function buttonClick(index) { 
+        event.preventDefault()
+        setActiveElement(index) 
+    }
     return (
         <div className='border-b-[1px] border-zinc-300 pb-[25px] mb-[25px]'>
             <div className='flex justify-between items-center'>
@@ -22,14 +13,16 @@ function BodyFirst2() {
                 <form>
                     <div className='w-[150px] flex justify-evenly items-center'>
                         {arr.map((el, i) => {
-                            return (
-                                <strong key={i}>
-                                    <button className={`px-[11px] py-[4px] border-[1px] text-[17px]
-                                     border-gray-500 rounded-[50%]`}
-                                        onClick={() => { console.log(1) }}>
-                                        {el.text}
-                                    </button></strong>
-                            )
+                            return <div key={i}>
+                                <button className={`px-[11px] py-[4px] border-[1px] text-[17px]
+                                    border-gray-500 rounded-[50%]
+                                    ${activeElement == i ? "bg-[#101623] text-white" : "bg-white"}
+                                    `}
+                                    onClick={(event) => buttonClick(i, event)}>
+                                    {el}
+                                </button>
+                            </div>
+
                         })}
                     </div>
                 </form>

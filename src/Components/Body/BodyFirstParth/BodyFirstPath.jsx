@@ -4,6 +4,7 @@ import BodyFirst2 from './BodyFirst2'
 import BodyFirst3 from './BodyFirst3'
 import BodyFirst4 from './BodyFirst4'
 import BodyFirst5 from './BodyFirst5'
+import BodyFirst6 from './BodyFirst6'
 
 function BodyFirstPath() {
   return (
@@ -13,6 +14,7 @@ function BodyFirstPath() {
         <BodyFirst3 />
         <BodyFirst4 />
         <BodyFirst5 />
+        <BodyFirst6 />
     </div>
   )
 }
