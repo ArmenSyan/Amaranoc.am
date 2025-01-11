@@ -19,8 +19,8 @@ function Header() {
             <TbWorld className='text-[24px]' />
             <CiUser className='text-[24px]'/>
                 <input 
-                type="text" 
-                placeholder='Որոնում' 
+                type="text"
+                placeholder='Որոնում'
                 className='px-[35px] py-[8px] rounded-[25px] border-[1px] border-zinc-400' />
             </div>
         </div>
