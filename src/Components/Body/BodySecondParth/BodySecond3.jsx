@@ -11,7 +11,7 @@ function BodySecond3() {
                 {DataBase[0].theBest.map((el, i) => {
                     return <div key={i} className='hover:cursor-pointer shadow-lg shadow-indigo-500/40 flex flex-col my-[15px] rounded-[15px]' >
                         <div>
-                            <img src={el.imgUrl} className='w-[340px] h-[300px] rounded-[15px] object-cover' />
+                            <img src={el.imgUrl} className='w-[355px] h-[300px] rounded-[15px] object-cover' />
                         </div>
                         <div className='flex  items-center text-[17px]'>
                             <div className='flex items-center text-[black] mt-[15px]'>

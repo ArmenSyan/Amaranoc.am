@@ -37,8 +37,8 @@ const DataBase = [{
     }, {
         place: "Ծաղկաձոր",
         people: "30",
-        price: "120,000 ֏",
-        imgUrl: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1732618649852--0.9131125780896108image.webp&w=1920&q=75",
+        price: "130,000 ֏",
+        imgUrl: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1727006467456--0.9643954207029866image.webp&w=1920&q=75",
     }, {
         place: "Նոր Հաճն",
         people: "25",
